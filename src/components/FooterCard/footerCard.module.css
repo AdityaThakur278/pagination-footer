@@ -1,0 +1,27 @@
+.cardContainer {
+  border: 1px solid grey;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cardContainer:hover {
+  background-color: grey;
+}
+
+.disabled {
+  background-color: #e4e8ee;
+}
+
+.disabled:hover {
+  background-color: #e4e8ee;
+}
+
+.selected {
+  background-color: #1d2531;
+  color: white;
+}
+
+.selected:hover {
+  background-color: #1d2531;
+}

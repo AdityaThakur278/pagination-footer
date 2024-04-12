@@ -1,0 +1,19 @@
+.loader {
+  height: 40px;
+  width: 40px;
+  border-top: 5px solid red;
+  border-right: 5px solid yellow;
+  border-bottom: 5px solid green;
+  border-left: 5px solid blue;
+  border-radius: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

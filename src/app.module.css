@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 33%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.image {
+  width: 70%;
+  height: 90%;
+}
+
+.imageTitle {
+  padding-top: 10px;
+}
+
+.footerContainer {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
